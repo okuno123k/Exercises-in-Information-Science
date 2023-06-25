@@ -41,7 +41,7 @@ void pgm_mosaic(unsigned char image[][MAX_WIDTH], int height, int width)
 int main()
 {
     const char input_file[] = "pixelated_picture.pgm";
-    const char output_file[] = "mosiac.pgm";
+    const char output_file[] = "mosaic.pgm";
     FILE *fp;
     static unsigned char image[MAX_HEIGHT][MAX_WIDTH];
     int width, height;
